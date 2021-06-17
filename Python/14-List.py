@@ -3,7 +3,8 @@ l = []
 
 for i in range(n):
     x = input().split(" ")
-    opr = x[0]
+    #opr = x[0]
+    opr = ' '
     if opr == "insert":
         l.insert(int(x[1]), int(x[2]))
     if opr == "print":
